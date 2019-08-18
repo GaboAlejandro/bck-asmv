@@ -7,7 +7,7 @@ Route::group([
 ], function () {
     Route::post('store','AppointmentController@store')-> name('appointments.store');
     Route::post('index','AppointmentController@index')-> name('appointments.index');
-    Route::post('index','AppointmentController@show')-> name('appointments.show');
+    Route::post('show','AppointmentController@show')-> name('appointments.show');
 
 });
 
