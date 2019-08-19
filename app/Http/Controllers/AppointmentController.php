@@ -45,7 +45,7 @@ class AppointmentController extends Controller
             $h = str_replace(':','',$h);
         }
         $h = (int)$h;
-        if($h < 9 || $h > 6){
+        if($h <= 9 && $h >= 6){
             return response()->json(['error' => 'Its Closed.'], 401);
         }
         if($val !== null){
