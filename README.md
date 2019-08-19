@@ -16,12 +16,19 @@ COMPOSER
 GIT
 
 Para instalar y ejecutar proyecto
-  git clone https://github.com/GaboAlejandro/rsp-back.git
+
+  git clone https://github.com/GaboAlejandro/bck-asmv.git
+  
   cd rsp-back
+ 
   composer install
+  
   rename .env.example .env
     -> Change DB_DATABASE: my_database
     -> Change DB_USERNAME: my_user
+ 
   php artisan migrate
+  
   php artisan key:generate
+  
   php artisan serve
