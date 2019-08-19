@@ -5,9 +5,9 @@ Route::group([
     'middleware' => ['api', 'cors'],
     'prefix' => 'appointments',
 ], function () {
-    Route::post('store','AppointmentController@store')-> name('appointments.store');
-    Route::post('index','AppointmentController@index')-> name('appointments.index');
-    Route::post('show','AppointmentController@show')-> name('appointments.show');
+    Route::post('store','AppointmentController@store');
+    Route::post('index','AppointmentController@index');
+    Route::post('show','AppointmentController@show');
 
 });
 
