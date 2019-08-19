@@ -19,7 +19,7 @@ class AppointmentResource extends JsonResource
             'appointment' => (string) $this->appointment,
             'created_at' => (string) $this->created_at,
             'updated_at' => (string) $this->updated_at,
-            'user_id' => $this->user,
+            'user_id' => $this->user
 
         ];
     }
