@@ -2,6 +2,7 @@
 <?php
 
 Route::group([
+    'middleware' => ['api', 'cors'],
     'prefix' => 'appointments',
 ], function () {
     Route::post('store','AppointmentController@store');
