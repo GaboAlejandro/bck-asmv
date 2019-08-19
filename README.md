@@ -1,7 +1,7 @@
 # bck-asmv
-ROCK PAPER AND SCISSORS
-Prueba
-This project was generated with [Laravel] version 7.2..
+Appointments for dead
+
+This project was generated with [Laravel] version 5.8.27.
 
 Control de versiones
 Version	Description
